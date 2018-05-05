@@ -9,6 +9,7 @@ from urllib.request import urlopen
 from urllib.error import HTTPError
 from bs4 import BeautifulSoup
 import re
+
 def getweb(url):
 #this function accept a link as string.
 #If the url is valid,it return the page as a beautifulsoup object.
